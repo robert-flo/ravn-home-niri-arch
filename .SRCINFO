@@ -1,0 +1,15 @@
+pkgbase = ravn-home-niri
+	pkgdesc = Capa niri para la estación de trabajo ravn (niri, clavis, postinstall)
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/robert-flo/ravn-home-niri
+	arch = any
+	license = MIT
+	depends = ravn-home-common
+	optdepends = niri: compositor de ventanas wayland
+	optdepends = quickshell: shell clavis
+	optdepends = matugen: generador de paletas dinamicas
+	source = ravn-home-niri-0.1.0.tar.gz::https://github.com/robert-flo/ravn-home-niri/archive/refs/tags/v0.1.0.tar.gz
+	sha256sums = 445e40ed2e2474b7b5c8e235e199e1717f2e8d825d5a4e59e3daed507bb45f6e
+
+pkgname = ravn-home-niri
